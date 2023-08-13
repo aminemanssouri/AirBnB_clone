@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     line-height: 1.5rem;
 }
@@ -13,10 +14,15 @@ ul {
 }
 
 .filters {
+=======
+.filters {
+    background-color: white;
+>>>>>>> 133284b6e32bfcc5199ad86aa1c5ef534e3e1cce
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+<<<<<<< HEAD
     display: flex;
     align-items: center;
 }
@@ -78,10 +84,61 @@ ul {
     border-radius: 4px;
     margin-right: 30px;
     margin-left: auto;
+=======
+    text-align: left;
+    display: inline-block;
+}
+
+.locations {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.amenities {
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+    margin-left: 40px;
+    position: absolute;
+}
+
+h3 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -12px;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 10px auto;
+    line-height: 10px;
+}
+
+button {
+    font-size: 18px;
+    background-color: #ff5a5f;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border-radius: 4px;
+    margin: 10px auto;
+    float: right;
+    margin-right: 20px;
+    position: relative;    
+>>>>>>> 133284b6e32bfcc5199ad86aa1c5ef534e3e1cce
 }
 
 button:hover {
     opacity: 0.9;
+<<<<<<< HEAD
 }* {
     line-height: 1.5rem;
 }
@@ -167,3 +224,24 @@ ul {
 .filters div:first-child {
     border-right: 1px solid #DDDDDD;
 }
+=======
+}
+
+.popover {
+    display: none;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    margin-left: -41px;
+    position: relative;
+}
+
+div.locations:hover ul.popover {
+    display: block;
+}
+
+div.amenities:hover ul.popover {
+    display: block;
+}
+>>>>>>> 133284b6e32bfcc5199ad86aa1c5ef534e3e1cce

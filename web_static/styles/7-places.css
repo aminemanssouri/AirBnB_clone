@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .places { 
     max-width: 1000px;
     margin: 0px auto;
@@ -25,3 +26,32 @@
 
     font-size: 30px;
 }
+=======
+.places {
+    font-size: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.places h1 {
+    text-align: left;
+    margin: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+article h2 {
+    font-size: 30px;
+}
+>>>>>>> 133284b6e32bfcc5199ad86aa1c5ef534e3e1cce

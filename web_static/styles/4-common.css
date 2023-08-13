@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
     height: 100%;
 }
@@ -25,3 +26,17 @@ p {
     text-align: center;
     vertical-align: middle;
 }
+=======
+body{
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+>>>>>>> 133284b6e32bfcc5199ad86aa1c5ef534e3e1cce
